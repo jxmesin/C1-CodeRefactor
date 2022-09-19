@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This class is in charge of the background-color of the overall page. */
+body {
+    background-color: #d9dcd6;
+}
+
+/*This class is in charge of the color and font of the h1 element in the header.*/
+.header  {
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*This class is in charge of the formatting of h1 element in the header.*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*This class is in charge of differenciating the span element within the h1 element.*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
+/*This class is in charge of the styling of the text links in the header.*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*This class is in charge of the style of bullet points used for the list.*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*This class is in charge of the color and set up of the text links in the header.*/
+.header nav ul li { 
+    display: inline-block;
+    margin-left: 25px;
+ }
+
+/*This class is in charge of color that is in the header box.*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*This class is in charge of the font size of the body paragraphs under each sub-heading.*/
+p {
+    font-size: 16px;
+}
+
+/*This class is in charge of the background photo of the landing page.*/
+.hero  {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*This class is in charge of the format in which the first and third sub-heading with paragraph and photo are placed.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*This class is in charge of the format in which the first and third sub-heading with paragraph and photo are placed.*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*This class is in charge of the body styling.*/
+.content   {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*This class is in charge of the text box on the right side of the webpage.*/
+.benefits  {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*This class is in charge of the first article in the right side text box.*/
+.benefit-lead  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This class is in charge of the second article in the right side text box.*/
+.benefit-brand  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This class is in charge of the third article in the right side text box.*/
+.benefit-cost  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*This class is in charge of the heading of the first article in the text box on the right side.*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This class is in charge of the heading of the second article in text box on the right side.*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This class is in charge of the heading of the third article in the text box on the right side.*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*This class is in charge of the first motif of the text box on the right side*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This class is in charge of the second motif of the text box on the right side*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This class is in charge of the third motif of the text box on the right side*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This class is in charge of the title within the first body paragraph.*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+/*This class is in charge of the title within the second body paragraph.*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*This class is in charge of the title within the third body paragraph.*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*This class is in charge of the "img src=" element in the first body paragraph.*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*This class is in charge of the "img scr=" element in the second body paragraph.*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*This class is in charge of the "img src=" element in the third body paragraph.*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*This class is in charge of the sizing of the h2 element within the first article element.*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*This class is in charge of the sizing of the h2 element within the second article element.*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*This class is in charge of the sizing of the h2 element within the third article element.*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*This class is in charge of the styling of the section element at the bottom of the page.*/
+.footer  {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*This class is in charge of the font size of the h2 element at the bottom of the page.*/
+.footer h2 {
+    font-size: 20px;
+}
